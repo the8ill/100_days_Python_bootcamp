@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T12:03:38.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lCKYWwvx5lWR1vic-qI-" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T12:45:58.539Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AYRgh2cHYNN-Stn90lQY" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2062" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,20 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="tasuj karty" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="290" y="90" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="kkH0gEXWOaD3QaX2QfBr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kkH0gEXWOaD3QaX2QfBr-1" target="kkH0gEXWOaD3QaX2QfBr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-1" value="rozdaj pierwsze karty&lt;br&gt;(dwie pary)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kkH0gEXWOaD3QaX2QfBr-3" value="def tasowanie():" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="95" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkH0gEXWOaD3QaX2QfBr-4" value="def rozdawanie():" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="210" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkH0gEXWOaD3QaX2QfBr-7" value="starczy?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="310" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
