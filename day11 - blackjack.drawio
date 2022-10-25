@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T13:16:08.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nLK03xA5VjzkxYiiLtZQ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T13:17:46.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Q-4jZEUyUUT9NEIT8mSN" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2062" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,16 +66,23 @@
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-26" value="Przegrana" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kkH0gEXWOaD3QaX2QfBr-38" value="TAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="kkH0gEXWOaD3QaX2QfBr-37">
+        <mxCell id="kkH0gEXWOaD3QaX2QfBr-38" value="TAK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kkH0gEXWOaD3QaX2QfBr-35" target="kkH0gEXWOaD3QaX2QfBr-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="700" y="700" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kkH0gEXWOaD3QaX2QfBr-55" value="NIE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kkH0gEXWOaD3QaX2QfBr-35" target="kkH0gEXWOaD3QaX2QfBr-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="580" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-35" value="czy fura?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="660" y="540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-37" value="Przegrana&lt;br&gt;(komp)" style="rounded=1;whiteSpace=wrap;html=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="640" y="780" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-41" value="def dobierz(gracz):" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="940" width="160" height="30" as="geometry" />
@@ -87,10 +94,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-46" value="GRACZ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="100" y="160" width="30" height="60" as="geometry" />
+          <mxGeometry x="110" y="250" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-47" value="KOMP" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="695" y="160" width="30" height="60" as="geometry" />
+          <mxGeometry x="740" y="260" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kkH0gEXWOaD3QaX2QfBr-51" value="dobierz kartę" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
